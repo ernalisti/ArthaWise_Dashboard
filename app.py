@@ -273,10 +273,6 @@ avg_expense = (
 # =============================================================================
 # HEADER
 # =============================================================================
-st.markdown("""
-<div style='margin-top:20px'></div>
-""", unsafe_allow_html=True)
-
 st.markdown(f"""
 <div style="
     background: linear-gradient(135deg,#111827,#1e293b);
@@ -285,6 +281,7 @@ st.markdown(f"""
     border:1px solid #1e293b;
     margin-bottom:28px;
 ">
+
     <div style="
         color:#94a3b8;
         font-size:0.9rem;
@@ -313,6 +310,7 @@ st.markdown(f"""
         dengan net cash flow
         <b>Rp {net_cashflow:,.0f}</b>
     </div>
+
 </div>
 """, unsafe_allow_html=True)
 
